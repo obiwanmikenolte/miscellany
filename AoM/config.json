@@ -1,0 +1,30 @@
+{
+  "civilizations": {
+    "Atlantean": [
+      "Kronos",
+      "Oranos",
+      "Gaia"
+    ],
+    "Chinese": [
+      "Shennong",
+      "Fu Xi",
+      "Nu Wa"
+    ],
+    "Egyptian": [
+      "Isis",
+      "Set",
+      "Ra"
+    ],
+    "Greek": [
+      "Zeus",
+      "Hades",
+      "Poseidon"
+    ],
+    "Norse": [
+      "Odin",
+      "Loki",
+      "Thor"
+    ]
+  },
+  "maximum_players": "8"
+}
