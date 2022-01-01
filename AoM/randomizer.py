@@ -34,7 +34,11 @@ def get_god(all_civs, chosen_civs):
     random_civ = random.choice(list(all_civs))
     if random_civ in list(chosen_civs):
       if len(list(all_civs)) == len(list(chosen_civs)):
-        chosen_civ = random.choice(list(all_civs))
+        smallest_civ = random_civ
+        for civ in chosen_civs:
+          if len(chosen_civs[civ]) < len(chosen_civs[smallest_civ]):
+            smallest_civ = chosen_civs[civ]
+        chosen_civ = smallest_civ
     else:
       chosen_civ = random_civ
   if not chosen_civ in chosen_civs:
